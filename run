@@ -1,0 +1,2 @@
+mcs main.cs -out:lbled.exe
+mono lbled.exe
