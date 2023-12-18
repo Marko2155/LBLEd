@@ -13,7 +13,7 @@ Install [Mono](https://mono-project.com)
 Use ```brew``` for Linux or Mac.
 
 :1
-Download the source code. After downloading, delete the actual source code and leave the executables. If you're on Windows, delete the man page too.
+Download the latest release.
 
 :2
 Create a folder on your Desktop called "SH".
