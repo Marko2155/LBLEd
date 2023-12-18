@@ -30,8 +30,9 @@ namespace Marko2155 {
 				saved = true;
 				fileContent.Clear();
 				Environment.Exit(2);
+			} else if (input == "?dll") {
+				fileContent.RemoveAt(fileContent.Count - 1);
 			}
-
 			}
 		}
 	}
