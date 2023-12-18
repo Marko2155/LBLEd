@@ -42,7 +42,21 @@ Then, press enter, and type
 Then, do ```?q```.
 Or, just ```?wq test```.
 When you want to quit, do ```?q```.
+
 Make sure you don't do this while writing though, LBLEd will remind you to save.
 If you don't want to save, just type ```?qa``` (standing for Quit Anyway).
 
+Now, write 5 lines of gibberish.
+Example:
+```
+sdfghdgfhs
+fdghdfghdfgh
+dfghdfg
+hdfghdfgh
+dfgh
+```
+Now, remember that last line.
+Type ```?dll``` (stands for Delete last line).
+Now, do a Write-quit.
+Congrats, you just deleted a line from your file!
 
