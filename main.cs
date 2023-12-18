@@ -25,6 +25,11 @@ namespace Marko2155 {
 			} else if (!input.StartsWith("?")) {
 				saved = false;
 				fileContent.Add(input);
+			} else if (input.StartsWith("?wq ") && input.Substring(4) != "") {
+				System.IO.File.WriteAllLines(input.Substring(4), fileContent.ToArray());
+				saved = true;
+				fileContent.Clear();
+				Environment.Exit(2);
 			}
 
 			}
