@@ -56,7 +56,7 @@ hdfghdfgh
 dfgh
 ```
 Now, remember that last line.
-Type ```?dll``` (stands for Delete last line).
+Type ```?dl``` (stands for Delete last line).
 Now, do a Write-quit.
 Congrats, you just deleted a line from your file!
 
